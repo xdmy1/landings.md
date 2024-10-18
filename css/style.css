@@ -886,12 +886,11 @@ p {
     border-radius: 40px;
     border: 4px solid rgb(235, 235, 235);
     align-items: center;
-    background-image: url(/Artboard\ 1.png);
+    background-image: url('../assets/Untitled-2.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    background-position-x: 125%;
-    background-position-y: -5rem;
+
     margin: 4rem 0;
 }
 form {
@@ -918,6 +917,7 @@ input {
     font-size: 1rem;
     border: none;
     border-radius: 1rem;
+    width: 25rem;
 }
 input:focus { 
     outline: none !important;
@@ -936,6 +936,7 @@ input::placeholder {
     font-family: 'Inter';
     border: 1px solid black ;
     border-radius: 15px;
+    color: black;
 }
 
 @media screen and (max-width: 1000px) {
@@ -947,5 +948,8 @@ input::placeholder {
     }
     .form-left {
        text-align: center;
+    }
+    input {
+        width: 15rem;
     }
 }
