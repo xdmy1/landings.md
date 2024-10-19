@@ -365,6 +365,12 @@ p {
     background-size:cover;
     background-repeat: no-repeat;
 }
+.macbook3 {
+    background: url('../assets/macbook3.webp');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
 .container-proiect:hover {
     cursor: move;
 }
